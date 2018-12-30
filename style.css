@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css?family=Thasadith");
+@-webkit-keyframes animate {
+  to {
+    stroke-dasharray: 100 100;
+  }
+}
+@keyframes animate {
+  to {
+    stroke-dasharray: 100 100;
+  }
+}
+
+* {
+  font-family: 'Thasadith', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.center {
+  text-align: center;
+  display: block;
+}
+
+h1 {
+  font-size: 35px;
+  padding: 40px 0;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 50vh;
+}
+
+.container .form-group {
+  margin-right: 50px;
+}
+
+.container .form-group label {
+  display: block;
+  font-weight: bold;
+}
+
+.container .form-group input {
+  height: 35px;
+  width: 69px;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+  padding: 0px 10px;
+  margin-top: 10px;
+  color: #444;
+  font-weight: bold;
+}
+
+.pie {
+  background: antiquewhite;
+  border-radius: 50%;
+  -webkit-transform: rotate(-0.25turn);
+          transform: rotate(-0.25turn);
+  width: 200px;
+}
+
+.pie circle {
+  stroke-dasharray: 1 100;
+  stroke: #f97a51;
+  fill: none;
+  stroke-width: 32px;
+}
+/*# sourceMappingURL=style.css.map */
