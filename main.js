@@ -4,7 +4,7 @@ const peiPercentage = document.getElementById('peiPercentage');
 peiPercentage.addEventListener('input', () => {
   
   let percentageInput = peiPercentage.value;
-  if(percentageInput >= 100) {
+  if(percentageInput > 100) {
     percentageInput.readonly = true;
     alert('percentage cannot be greater then 100!')
   } else {
